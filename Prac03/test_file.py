@@ -41,11 +41,3 @@ my_list=['first line\n', 'second line\n', 'third line\n', 'fourth line\n']
 out_file = open("out.txt","w")
 out_file.writelines(my_list)
 out_file.close()
-
-num=0
-out_file=open("numbers.txt","w")
-while num >=0:
-    num=int(input("Number:"))
-    if num >= 0:
-         print(str(num),file=out_file)
-out_file.close()
