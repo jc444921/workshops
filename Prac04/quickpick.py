@@ -6,7 +6,6 @@ num_of_pick = int(input("How many quick picks?"))
 pick_of_6_number = []
 num = 0
 
-
 for i in range(0, num_of_pick):
     num = randint(1, 45)
     for j in range(0, 6):
